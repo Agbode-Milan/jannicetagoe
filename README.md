@@ -1,1 +1,1 @@
-This is the repository for Jannice agoes Porftolio website
+This is the repository for Jannice Tagoes Porftolio website
