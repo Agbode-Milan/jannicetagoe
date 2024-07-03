@@ -3006,3 +3006,101 @@ Google map
     height: 25px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .work-item,
+  .works-grid-3 .work-item,
+  .works-grid-4 .work-item,
+  .works-grid-5 .work-item {
+    width: 100%;
+  }
+}
+
+.nav-link-large {
+  font-size: 17px; /* Adjust the size as needed */
+}
+
+.social-icon {
+  display: inline-block; /* Display elements in a line */
+  margin-right: 10px; /* Adjust spacing between icons */
+}
+
+.social-icon img {
+  width: 20px; /* Adjust the width of the images */
+  height: 20px; /* Maintain aspect ratio */
+}
+
+@media (max-width: 767px) {
+  .home-section {
+    height: 30vh !important; /* Adjust this value to control the height of the image on mobile */
+    min-height: unset !important;
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative; /* Ensure proper positioning */
+    z-index: 1; /* Set z-index to ensure it stays beneath the navbar */
+    margin-top: 50px; /* Ensure there is space for the fixed navbar */
+  }
+
+  .navbar {
+    position: fixed; /* Ensure the navbar is fixed at the top */
+    width: 100%; /* Make sure the navbar spans the full width */
+    top: 0; /* Position at the top of the screen */
+    z-index: 2; /* Higher z-index than .home-section to stay on top */
+  }
+
+  body {
+    background-color: #000; /* Set the background color to black */
+  }
+
+  .mobile-spacer {
+    height: 20vh; /* Adjust this value to control the amount of black space */
+  }
+
+  .module-small {
+    background-color: #000 !important; /* Ensure the social media section has a black background */
+  }
+
+  .footer {
+    background-color: #000 !important; /* Ensure the footer has a black background */
+  }
+}
+
+.module-small {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.callout-title {
+  margin-bottom: 15px;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  margin: 0 10px;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 767px) {
+  .module-small {
+    padding: 20px 0;
+  }
+
+  .social-icon {
+    margin: 0 5px;
+  }
+
+  .social-icon img {
+    width: 25px;
+    height: 25px;
+  }
+}
